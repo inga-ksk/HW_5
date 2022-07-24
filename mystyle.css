@@ -64,3 +64,22 @@ div.list div:before {
   color:#fff;
 }
 
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: darkorange;
+}
+
+/* mouse over link */
+a:hover {
+  color: lightseagreen;
+}
+
+/* selected link */
+a:active {
+  color: olive;
+}
