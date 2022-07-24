@@ -1,0 +1,66 @@
+body {
+  background-image: url("cutting_board.jpg");
+  background-size: 100%;
+  font-family: "High Tower Text";
+  font-size: 22px;
+}
+
+.header_main {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  background-color: white;
+}
+
+div.header_small {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.underline {
+  text-align: center;
+  text-decoration: underline;
+}
+
+img.ready_to_serve {
+  border: 5px solid green;
+  margin-left: 120px;
+}
+
+table {
+  text-align: left;
+}
+
+div.steps_to_cook {
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 2;
+  font-style: normal;
+  background-color: white;
+}
+
+div.list {
+  counter-reset: list-number;
+}
+
+div.list div:before {
+  counter-increment: list-number;
+  content: counter(list-number);
+  margin-left: 20px;
+  margin-top: 20px;
+  width:35px;
+  height:35px;
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+  font-size:16px;
+  background-color:#d7385e;
+  border-radius:50%;
+  color:#fff;
+}
+
